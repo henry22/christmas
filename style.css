@@ -117,8 +117,8 @@
             transform-style: preserve-3d;
 }
 .spiral.one {
-    -webkit-animation: rotate-tree 6s infinite linear both;
-            animation: rotate-tree 6s infinite linear both;
+    -webkit-animation: rotate-tree 3s infinite linear both;
+            animation: rotate-tree 3s infinite linear both;
     -webkit-animation-delay: -1.7s;
             animation-delay: -1.7s;
 }
@@ -126,8 +126,8 @@
     background: #fcfbe9;
 }
 .spiral.two {
-    -webkit-animation: rotate-tree 7s infinite linear both;
-            animation: rotate-tree 7s infinite linear both;
+    -webkit-animation: rotate-tree 3s infinite linear both;
+            animation: rotate-tree 3s infinite linear both;
     -webkit-animation-delay: -1s;
             animation-delay: -1s;
 }
@@ -135,8 +135,8 @@
     background: #e8a41d;
 }
 .spiral.three {
-    -webkit-animation: rotate-tree 8s infinite linear both;
-            animation: rotate-tree 8s infinite linear both;
+    -webkit-animation: rotate-tree 3s infinite linear both;
+            animation: rotate-tree 3s infinite linear both;
     -webkit-animation-delay: -0.1s;
             animation-delay: -0.1s;
 }
@@ -170,8 +170,8 @@
     opacity: 1;
     -webkit-animation-name: pulsate;
             animation-name: pulsate;
-    -webkit-animation-timing-function: ease-in-out;
-            animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
     -webkit-animation-iteration-count: infinite;
             animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
